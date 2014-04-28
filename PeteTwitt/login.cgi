@@ -17,25 +17,84 @@ def login_form():
     html="""
 <HTML>
 <HEAD>
-<TITLE>Info Form</TITLE>
+<TITLE>Purdue Twitt</TITLE>
+     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="http://getbootstrap.com/assets/ico/favicon.ico">
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Custom styles for this template -->
+    <link href="http://getbootstrap.com/examples/signin/signin.css" rel="stylesheet">	
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 </HEAD>
 
 <BODY BGCOLOR = white>
 
-<center><H2>Twitter</H2></center>
 
-<H3>Type User and Password:</H3>
+ <div class="container">
 
-<TABLE BORDER = 0>
-<FORM METHOD=post ACTION="login.cgi">
-<TR><TH>Username:</TH><TD><INPUT TYPE=text NAME="username"></TD><TR>
-<TR><TH>Password:</TH><TD><INPUT TYPE=password NAME="password"></TD></TR>
-</TABLE>
+      <form class="form-signin" role="form" METHOD=post ACTION="login.cgi">
+        <h2 class="form-signin-heading">Please sign in</h2>
+        <input type="email" class="form-control" placeholder="Email address" required="" autofocus="" NAME="username">
+        <input type="password" class="form-control" placeholder="Password" required="" NAME="password">
+        <label class="checkbox">
+          <input type="checkbox" value="remember-me"> Remember me
+        </label>
+	<INPUT TYPE=hidden NAME="action" VALUE="login">
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+	<br>
+	Don't have an account?
+	<button class="btn btn-primary btn-lg btn-block" data-toggle="modal" data-target="#myModal" align="right">
+  		Sign Up
+	</button>
+	</form>
+    
 
-<INPUT TYPE=hidden NAME="action" VALUE="login">
-<INPUT TYPE=submit VALUE="Enter">
-<INPUT TYPE=submit NAME="new_user" VALUE="Sign Up">
-</FORM>
+    </div> <!-- /container -->
+
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel">Sign Up</h4>
+      </div>
+      <div class="modal-body">
+          <form class="form-signin" role="form" METHOD=post ACTION="login.cgi">
+        <h2 class="form-signin-heading">Please sign up</h2>
+        <input type="email" class="form-control" placeholder="Email address" required="" autofocus="" NAME="username">
+        <input type="password" class="form-control" placeholder="Password" required="" NAME="password">
+	<INPUT TYPE=hidden NAME="action" VALUE="sign-up">
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign up</button>
+	</form>
+	
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 </BODY>
 </HTML>
 """
@@ -44,9 +103,6 @@ def login_form():
 
 
 ###################################################################
-
-def sign_up():
-	
 # Define function to test the password.
 def check_password(user, passwd):
 
@@ -66,19 +122,117 @@ def check_password(user, passwd):
 
     return "failed"
 
+###################################################################
+# Define function to sign up new user
+def sign_up(user, passwd) :
+	conn = sqlite3.connect(DATABASE)
+    	c = conn.cursor();
+	
+	t = (user,)
+	c.execute('SELECT * FROM users WHERE email=?', t)
+
+	row = c.fetchone()
+	
+	if row == None: 
+		u = (user,passwd)
+		c.execute('INSERT INTO users VALUES(?,?)',u)
+		conn.commit()
+		conn.close()
+		return "passed"
+	
+	conn.close()
+	return "failed"
+
 ##########################################################
 # Diplay the options of admin
 def display_admin_options(user, session):
     html="""
-        <H1> Hello twitter</H1>
-        <ul>
-        <li> <a href="login.cgi?action=new-album&user={user}&session={session}">Create new album</a>
-        <li> <a href="login.cgi?action=upload&user={user}&session={session}">Upload Picture</a>
-        <li> <a href="login.cgi?action=show_image&user={user}&session={session}">Show Image</a>
-        <li> Delete album
-        <li> Make album public
-        <li> Change pasword
-        </ul>
+        <!DOCTYPE html>
+<!-- saved from url=(0038)http://getbootstrap.com/examples/blog/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="http://getbootstrap.com/assets/ico/favicon.ico">
+
+    <title>Blog Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="http://getbootstrap.com/examples/blog/blog.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  <style id="holderjs-style" type="text/css"></style></head>
+
+  <body>
+
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="blog-nav">
+          <a class="blog-nav-item active" href="http://getbootstrap.com/examples/blog/#">Home</a>
+          <a class="blog-nav-item" href="http://getbootstrap.com/examples/blog/#">New features</a>
+          <a class="blog-nav-item" href="http://getbootstrap.com/examples/blog/#">Press</a>
+          <a class="blog-nav-item" href="http://getbootstrap.com/examples/blog/#">New hires</a>
+          <a class="blog-nav-item" href="http://getbootstrap.com/examples/blog/#">About</a>
+        </nav>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div class="blog-header">
+        <h1 class="blog-title">Purdue Twitt Main Page</h1>
+      </div>
+
+      <div class="row">
+
+        <div class="col-sm-8 blog-main">
+
+          <ul class="pager">
+            <li><a href="http://getbootstrap.com/examples/blog/#">Previous</a></li>
+            <li><a href="http://getbootstrap.com/examples/blog/#">Next</a></li>
+          </ul>
+
+        </div><!-- /.blog-main -->
+
+        <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
+          <div class="sidebar-module sidebar-module-inset">
+            <h4>About</h4>
+            <p>Purdue Twitt is a Twitter-like Web application written in Python for CS390-Python</p>
+          </div>
+        </div><!-- /.blog-sidebar -->
+
+      </div><!-- /.row -->
+
+    </div><!-- /.container -->
+
+    <div class="blog-footer">
+      <p>
+        <a href="http://data.cs.purdue.edu:6500/PeteTwitt/login.cgi">Back to top</a>
+      </p>
+    </div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="./Blog Template for Bootstrap_files/jquery.min.js"></script>
+    <script src="./Blog Template for Bootstrap_files/bootstrap.min.js"></script>
+    <script src="./Blog Template for Bootstrap_files/docs.min.js"></script>
+  
+
+</body></html>
         """
         #Also set a session number in a hidden field so the
         #cgi can check that the user has been authenticated
@@ -197,6 +351,18 @@ def main():
                 else:
                    login_form()
                    print("<H3><font color=\"red\">Incorrect user/password</font></H3>")
+	elif (action == "sign_up"):
+		#Create new account
+		if "username" in form and "password" in form:
+               		#Test password
+			username=form["username"].value
+			password=form["password"].value			
+			if sign_up(username,password) == "passed":
+				session=create_new_session(username)
+				login_form()
+			else:
+				login_form()
+				print("<H3><font color=\"red\">Username already exists.</font></H3>")
         elif (action == "new-album"):
 	  new_album(form)
         elif (action == "upload"):
