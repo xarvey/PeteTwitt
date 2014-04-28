@@ -1,0 +1,227 @@
+[Sun Apr 27 21:40:36 2014] [notice] Apache/2.2.17 (Unix) configured -- resuming normal operations
+[Sun Apr 27 21:40:38 2014] [notice] SIGHUP received.  Attempting to restart
+[Sun Apr 27 21:40:38 2014] [notice] Apache/2.2.17 (Unix) configured -- resuming normal operations
+[Sun Apr 27 21:40:43 2014] [error] [client 128.10.25.105] File does not exist: /homes/xiao67/apache/htdocs/favicon.ico
+[Sun Apr 27 21:41:02 2014] [error] [client 128.10.25.105] script not found or unable to stat: /homes/xiao67/apache/htdocs/test.cgi
+[Sun Apr 27 21:41:51 2014] [error] [client 128.10.25.105] (13)Permission denied: exec of '/homes/xiao67/apache/htdocs/test.cgi' failed
+[Sun Apr 27 21:41:51 2014] [error] [client 128.10.25.105] Premature end of script headers: test.cgi
+[Sun Apr 27 21:42:30 2014] [error] [client 128.10.25.105] (8)Exec format error: exec of '/homes/xiao67/apache/htdocs/test.cgi' failed
+[Sun Apr 27 21:42:30 2014] [error] [client 128.10.25.105] Premature end of script headers: test.cgi
+[Sun Apr 27 21:42:30 2014] [error] [client 128.10.25.105] (8)Exec format error: exec of '/homes/xiao67/apache/htdocs/test.cgi' failed
+[Sun Apr 27 21:42:30 2014] [error] [client 128.10.25.105] Premature end of script headers: test.cgi
+[Sun Apr 27 21:42:31 2014] [error] [client 128.10.25.105] (8)Exec format error: exec of '/homes/xiao67/apache/htdocs/test.cgi' failed
+[Sun Apr 27 21:42:31 2014] [error] [client 128.10.25.105] Premature end of script headers: test.cgi
+[Sun Apr 27 21:42:42 2014] [error] [client 128.10.25.105] (8)Exec format error: exec of '/homes/xiao67/apache/htdocs/test.cgi' failed
+[Sun Apr 27 21:42:42 2014] [error] [client 128.10.25.105] Premature end of script headers: test.cgi
+[Sun Apr 27 21:43:04 2014] [notice] SIGHUP received.  Attempting to restart
+[Sun Apr 27 21:43:05 2014] [notice] Apache/2.2.17 (Unix) configured -- resuming normal operations
+[Sun Apr 27 21:43:06 2014] [error] [client 128.10.25.105] (8)Exec format error: exec of '/homes/xiao67/apache/htdocs/test.cgi' failed
+[Sun Apr 27 21:43:06 2014] [error] [client 128.10.25.105] Premature end of script headers: test.cgi
+[Sun Apr 27 21:43:06 2014] [error] [client 128.10.25.105] (8)Exec format error: exec of '/homes/xiao67/apache/htdocs/test.cgi' failed
+[Sun Apr 27 21:43:06 2014] [error] [client 128.10.25.105] Premature end of script headers: test.cgi
+[Sun Apr 27 21:43:06 2014] [error] [client 128.10.25.105] (8)Exec format error: exec of '/homes/xiao67/apache/htdocs/test.cgi' failed
+[Sun Apr 27 21:43:06 2014] [error] [client 128.10.25.105] Premature end of script headers: test.cgi
+[Sun Apr 27 21:43:06 2014] [error] [client 128.10.25.105] (8)Exec format error: exec of '/homes/xiao67/apache/htdocs/test.cgi' failed
+[Sun Apr 27 21:43:06 2014] [error] [client 128.10.25.105] Premature end of script headers: test.cgi
+[Sun Apr 27 21:43:07 2014] [error] [client 128.10.25.105] (8)Exec format error: exec of '/homes/xiao67/apache/htdocs/test.cgi' failed
+[Sun Apr 27 21:43:07 2014] [error] [client 128.10.25.105] Premature end of script headers: test.cgi
+[Sun Apr 27 21:43:07 2014] [error] [client 128.10.25.105] (8)Exec format error: exec of '/homes/xiao67/apache/htdocs/test.cgi' failed
+[Sun Apr 27 21:43:07 2014] [error] [client 128.10.25.105] Premature end of script headers: test.cgi
+[Sun Apr 27 21:43:58 2014] [error] [client 128.10.25.105] (8)Exec format error: exec of '/homes/xiao67/apache/htdocs/test.cgi' failed
+[Sun Apr 27 21:43:58 2014] [error] [client 128.10.25.105] Premature end of script headers: test.cgi
+[Sun Apr 27 21:44:37 2014] [error] [client 128.10.25.105] (8)Exec format error: exec of '/homes/xiao67/apache/htdocs/test.cgi' failed
+[Sun Apr 27 21:44:37 2014] [error] [client 128.10.25.105] Premature end of script headers: test.cgi
+[Sun Apr 27 21:44:42 2014] [error] [client 128.10.25.105] (8)Exec format error: exec of '/homes/xiao67/apache/htdocs/test.cgi' failed
+[Sun Apr 27 21:44:42 2014] [error] [client 128.10.25.105] Premature end of script headers: test.cgi
+[Sun Apr 27 22:11:30 2014] [error] [client 128.10.25.105] (8)Exec format error: exec of '/homes/xiao67/apache/htdocs/test.cgi' failed
+[Sun Apr 27 22:11:30 2014] [error] [client 128.10.25.105] Premature end of script headers: test.cgi
+[Sun Apr 27 22:15:34 2014] [notice] SIGHUP received.  Attempting to restart
+[Sun Apr 27 22:15:34 2014] [notice] Apache/2.2.17 (Unix) configured -- resuming normal operations
+[Sun Apr 27 22:15:36 2014] [error] [client 128.10.25.105] (8)Exec format error: exec of '/homes/xiao67/apache/htdocs/test.cgi' failed
+[Sun Apr 27 22:15:36 2014] [error] [client 128.10.25.105] Premature end of script headers: test.cgi
+[Sun Apr 27 22:15:36 2014] [error] [client 128.10.25.105] (8)Exec format error: exec of '/homes/xiao67/apache/htdocs/test.cgi' failed
+[Sun Apr 27 22:15:36 2014] [error] [client 128.10.25.105] Premature end of script headers: test.cgi
+[Sun Apr 27 22:15:37 2014] [error] [client 128.10.25.105] (8)Exec format error: exec of '/homes/xiao67/apache/htdocs/test.cgi' failed
+[Sun Apr 27 22:15:37 2014] [error] [client 128.10.25.105] Premature end of script headers: test.cgi
+[Sun Apr 27 22:15:37 2014] [error] [client 128.10.25.105] (8)Exec format error: exec of '/homes/xiao67/apache/htdocs/test.cgi' failed
+[Sun Apr 27 22:15:37 2014] [error] [client 128.10.25.105] Premature end of script headers: test.cgi
+[Sun Apr 27 22:15:38 2014] [error] [client 128.10.25.105] File does not exist: /homes/xiao67/apache/htdocs/test.cg
+[Sun Apr 27 22:15:39 2014] [error] [client 128.10.25.105] (8)Exec format error: exec of '/homes/xiao67/apache/htdocs/test.cgi' failed
+[Sun Apr 27 22:15:39 2014] [error] [client 128.10.25.105] Premature end of script headers: test.cgi
+[Sun Apr 27 22:15:43 2014] [error] [client 128.10.25.105] File does not exist: /homes/xiao67/apache/htdocs/test.cg
+[Sun Apr 27 22:15:44 2014] [error] [client 128.10.25.105] (8)Exec format error: exec of '/homes/xiao67/apache/htdocs/test.cgi' failed
+[Sun Apr 27 22:15:44 2014] [error] [client 128.10.25.105] Premature end of script headers: test.cgi
+[Sun Apr 27 22:31:59 2014] [error] [client 128.10.25.105] (8)Exec format error: exec of '/homes/xiao67/apache/htdocs/test.cgi' failed
+[Sun Apr 27 22:31:59 2014] [error] [client 128.10.25.105] Premature end of script headers: test.cgi
+[Sun Apr 27 22:32:11 2014] [notice] SIGHUP received.  Attempting to restart
+[Sun Apr 27 22:32:11 2014] [notice] Apache/2.2.17 (Unix) configured -- resuming normal operations
+[Sun Apr 27 22:34:15 2014] [error] [client 128.10.25.105] File does not exist: /homes/xiao67/apache/htdocs/favicon.ico
+[Sun Apr 27 22:34:18 2014] [error] [client 128.10.25.105] (8)Exec format error: exec of '/homes/xiao67/apache/htdocs/test.cgi' failed
+[Sun Apr 27 22:34:18 2014] [error] [client 128.10.25.105] Premature end of script headers: test.cgi
+[Sun Apr 27 22:35:15 2014] [warn] pid file /homes/xiao67/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Apr 27 22:35:15 2014] [notice] Apache/2.2.17 (Unix) configured -- resuming normal operations
+[Sun Apr 27 22:35:26 2014] [notice] caught SIGTERM, shutting down
+[Sun Apr 27 22:35:28 2014] [notice] Apache/2.2.17 (Unix) configured -- resuming normal operations
+ao67/apache/htdocs/test.cgi' failed
+[Sun Apr 27 22:35:30 2014] [error] [client 128.10.25.105] Premature end of script headers: test.cgi
+[Sun Apr 27 22:35:30 2014] [error] [client 128.10.25.105] (8)Exec format error: exec of '/homes/xiao67/apache/htdocs/test.cgi' failed
+[Sun Apr 27 22:35:30 2014] [error] [client 128.10.25.105] Premature end of script headers: test.cgi
+[Sun Apr 27 22:35:30 2014] [error] [client 128.10.25.105] (8)Exec format error: exec of '/homes/xiao67/apache/htdocs/test.cgi' failed
+[Sun Apr 27 22:35:30 2014] [error] [client 128.10.25.105] Premature end of script headers: test.cgi
+[Sun Apr 27 22:35:31 2014] [error] [client 128.10.25.105] (8)Exec format error: exec of '/homes/xiao67/apache/htdocs/test.cgi' failed
+[Sun Apr 27 22:35:31 2014] [error] [client 128.10.25.105] Premature end of script headers: test.cgi
+[Sun Apr 27 22:35:32 2014] [error] [client 128.10.25.105] (8)Exec format error: exec of '/homes/xiao67/apache/htdocs/test.cgi' failed
+[Sun Apr 27 22:35:32 2014] [error] [client 128.10.25.105] Premature end of script headers: test.cgi
+[Sun Apr 27 23:00:54 2014] [error] [client 128.10.25.105] Premature end of script headers: login.cgi, referer: http://data.cs.purdue.edu:54354/PeteTwitt/login.cgi
+[Sun Apr 27 23:17:42 2014] [warn] pid file /homes/xiao67/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Apr 27 23:17:42 2014] [notice] Apache/2.2.17 (Unix) configured -- resuming normal operations
+[Sun Apr 27 23:17:47 2014] [error] [client 128.10.25.105] File does not exist: /homes/xiao67/apache/htdocs/favicon.ico
+[Sun Apr 27 23:17:57 2014] [error] [client 128.10.25.105] File does not exist: /homes/xiao67/apache/htdocs/Petetwitt
+[Mon Apr 28 00:23:07 2014] [error] [client 128.10.25.105] Premature end of script headers: login.cgi, referer: http://data.cs.purdue.edu:54354/PeteTwitt/login.cgi
+[Mon Apr 28 01:17:43 2014] [error] [client 128.10.25.105] Premature end of script headers: login.cgi, referer: http://data.cs.purdue.edu:54354/PeteTwitt/login.cgi
+[Mon Apr 28 02:19:03 2014] [error] [client 128.10.25.105] Premature end of script headers: login.cgi, referer: http://data.cs.purdue.edu:54354/PeteTwitt/login.cgi
+[Mon Apr 28 02:21:45 2014] [error] [client 128.10.25.105]   File "/homes/xiao67/apache/htdocs/PeteTwitt/login.cgi", line 73
+[Mon Apr 28 02:21:45 2014] [error] [client 128.10.25.105]     print_html_content_type()
+[Mon Apr 28 02:21:45 2014] [error] [client 128.10.25.105]                             ^
+[Mon Apr 28 02:21:45 2014] [error] [client 128.10.25.105] IndentationError: unindent does not match any outer indentation level
+[Mon Apr 28 02:21:45 2014] [error] [client 128.10.25.105] Premature end of script headers: login.cgi
+[Mon Apr 28 02:21:46 2014] [error] [client 128.10.25.105]   File "/homes/xiao67/apache/htdocs/PeteTwitt/login.cgi", line 73
+[Mon Apr 28 02:21:46 2014] [error] [client 128.10.25.105]     print_html_content_type()
+[Mon Apr 28 02:21:46 2014] [error] [client 128.10.25.105]                             ^
+[Mon Apr 28 02:21:46 2014] [error] [client 128.10.25.105] IndentationError: unindent does not match any outer indentation level
+[Mon Apr 28 02:21:46 2014] [error] [client 128.10.25.105] Premature end of script headers: login.cgi
+[Mon Apr 28 02:21:46 2014] [error] [client 128.10.25.105]   File "/homes/xiao67/apache/htdocs/PeteTwitt/login.cgi", line 73
+[Mon Apr 28 02:21:46 2014] [error] [client 128.10.25.105]     print_html_content_type()
+[Mon Apr 28 02:21:46 2014] [error] [client 128.10.25.105]                             ^
+[Mon Apr 28 02:21:46 2014] [error] [client 128.10.25.105] IndentationError: unindent does not match any outer indentation level
+[Mon Apr 28 02:21:46 2014] [error] [client 128.10.25.105] Premature end of script headers: login.cgi
+[Mon Apr 28 02:21:46 2014] [error] [client 128.10.25.105]   File "/homes/xiao67/apache/htdocs/PeteTwitt/login.cgi", line 73
+[Mon Apr 28 02:21:46 2014] [error] [client 128.10.25.105]     print_html_content_type()
+[Mon Apr 28 02:21:46 2014] [error] [client 128.10.25.105]                             ^
+[Mon Apr 28 02:21:46 2014] [error] [client 128.10.25.105] IndentationError: unindent does not match any outer indentation level
+[Mon Apr 28 02:21:46 2014] [error] [client 128.10.25.105] Premature end of script headers: login.cgi
+[Mon Apr 28 02:21:54 2014] [error] [client 128.10.25.105]   File "/homes/xiao67/apache/htdocs/PeteTwitt/login.cgi", line 73
+[Mon Apr 28 02:21:54 2014] [error] [client 128.10.25.105]     print_html_content_type()
+[Mon Apr 28 02:21:54 2014] [error] [client 128.10.25.105]                             ^
+[Mon Apr 28 02:21:54 2014] [error] [client 128.10.25.105] IndentationError: unindent does not match any outer indentation level
+[Mon Apr 28 02:21:54 2014] [error] [client 128.10.25.105] Premature end of script headers: login.cgi
+[Mon Apr 28 02:21:55 2014] [error] [client 128.10.25.105]   File "/homes/xiao67/apache/htdocs/PeteTwitt/login.cgi", line 73
+[Mon Apr 28 02:21:55 2014] [error] [client 128.10.25.105]     print_html_content_type()
+[Mon Apr 28 02:21:55 2014] [error] [client 128.10.25.105]                             ^
+[Mon Apr 28 02:21:55 2014] [error] [client 128.10.25.105] IndentationError: unindent does not match any outer indentation level
+[Mon Apr 28 02:21:55 2014] [error] [client 128.10.25.105] Premature end of script headers: login.cgi
+[Mon Apr 28 02:21:55 2014] [error] [client 128.10.25.105]   File "/homes/xiao67/apache/htdocs/PeteTwitt/login.cgi", line 73
+[Mon Apr 28 02:21:55 2014] [error] [client 128.10.25.105]     print_html_content_type()
+[Mon Apr 28 02:21:55 2014] [error] [client 128.10.25.105]                             ^
+[Mon Apr 28 02:21:55 2014] [error] [client 128.10.25.105] IndentationError: unindent does not match any outer indentation level
+[Mon Apr 28 02:21:55 2014] [error] [client 128.10.25.105] Premature end of script headers: login.cgi
+[Mon Apr 28 02:21:55 2014] [error] [client 128.10.25.105]   File "/homes/xiao67/apache/htdocs/PeteTwitt/login.cgi", line 73
+[Mon Apr 28 02:21:55 2014] [error] [client 128.10.25.105]     print_html_content_type()
+[Mon Apr 28 02:21:55 2014] [error] [client 128.10.25.105]                             ^
+[Mon Apr 28 02:21:55 2014] [error] [client 128.10.25.105] IndentationError: unindent does not match any outer indentation level
+[Mon Apr 28 02:21:55 2014] [error] [client 128.10.25.105] Premature end of script headers: login.cgi
+[Mon Apr 28 02:22:05 2014] [error] [client 128.10.25.105]   File "/homes/xiao67/apache/htdocs/PeteTwitt/login.cgi", line 73
+[Mon Apr 28 02:22:05 2014] [error] [client 128.10.25.105]     print_html_content_type()
+[Mon Apr 28 02:22:05 2014] [error] [client 128.10.25.105]                             ^
+[Mon Apr 28 02:22:05 2014] [error] [client 128.10.25.105] IndentationError: unindent does not match any outer indentation level
+[Mon Apr 28 02:22:05 2014] [error] [client 128.10.25.105] Premature end of script headers: login.cgi
+[Mon Apr 28 02:22:06 2014] [error] [client 128.10.25.105]   File "/homes/xiao67/apache/htdocs/PeteTwitt/login.cgi", line 73
+[Mon Apr 28 02:22:06 2014] [error] [client 128.10.25.105]     print_html_content_type()
+[Mon Apr 28 02:22:06 2014] [error] [client 128.10.25.105]                             ^
+[Mon Apr 28 02:22:06 2014] [error] [client 128.10.25.105] IndentationError: unindent does not match any outer indentation level
+[Mon Apr 28 02:22:06 2014] [error] [client 128.10.25.105] Premature end of script headers: login.cgi
+[Mon Apr 28 02:22:06 2014] [error] [client 128.10.25.105]   File "/homes/xiao67/apache/htdocs/PeteTwitt/login.cgi", line 73
+[Mon Apr 28 02:22:06 2014] [error] [client 128.10.25.105]     print_html_content_type()
+[Mon Apr 28 02:22:06 2014] [error] [client 128.10.25.105]                             ^
+[Mon Apr 28 02:22:06 2014] [error] [client 128.10.25.105] IndentationError: unindent does not match any outer indentation level
+[Mon Apr 28 02:22:06 2014] [error] [client 128.10.25.105] Premature end of script headers: login.cgi
+[Mon Apr 28 02:22:06 2014] [error] [client 128.10.25.105]   File "/homes/xiao67/apache/htdocs/PeteTwitt/login.cgi", line 73
+[Mon Apr 28 02:22:06 2014] [error] [client 128.10.25.105]     print_html_content_type()
+[Mon Apr 28 02:22:06 2014] [error] [client 128.10.25.105]                             ^
+[Mon Apr 28 02:22:06 2014] [error] [client 128.10.25.105] IndentationError: unindent does not match any outer indentation level
+[Mon Apr 28 02:22:06 2014] [error] [client 128.10.25.105] Premature end of script headers: login.cgi
+[Mon Apr 28 02:22:06 2014] [error] [client 128.10.25.105]   File "/homes/xiao67/apache/htdocs/PeteTwitt/login.cgi", line 73
+[Mon Apr 28 02:22:06 2014] [error] [client 128.10.25.105]     print_html_content_type()
+[Mon Apr 28 02:22:06 2014] [error] [client 128.10.25.105]                             ^
+[Mon Apr 28 02:22:06 2014] [error] [client 128.10.25.105] IndentationError: unindent does not match any outer indentation level
+[Mon Apr 28 02:22:06 2014] [error] [client 128.10.25.105] Premature end of script headers: login.cgi
+[Mon Apr 28 02:22:06 2014] [error] [client 128.10.25.105]   File "/homes/xiao67/apache/htdocs/PeteTwitt/login.cgi", line 73
+[Mon Apr 28 02:22:06 2014] [error] [client 128.10.25.105]     print_html_content_type()
+[Mon Apr 28 02:22:06 2014] [error] [client 128.10.25.105]                             ^
+[Mon Apr 28 02:22:06 2014] [error] [client 128.10.25.105] IndentationError: unindent does not match any outer indentation level
+[Mon Apr 28 02:22:06 2014] [error] [client 128.10.25.105] Premature end of script headers: login.cgi
+[Mon Apr 28 02:22:44 2014] [error] [client 128.10.25.105]   File "/homes/xiao67/apache/htdocs/PeteTwitt/login.cgi", line 51
+[Mon Apr 28 02:22:44 2014] [error] [client 128.10.25.105]     def check_password(user, passwd):
+[Mon Apr 28 02:22:44 2014] [error] [client 128.10.25.105]       ^
+[Mon Apr 28 02:22:44 2014] [error] [client 128.10.25.105] IndentationError: expected an indented block
+[Mon Apr 28 02:22:44 2014] [error] [client 128.10.25.105] Premature end of script headers: login.cgi
+[Mon Apr 28 02:22:45 2014] [error] [client 128.10.25.105]   File "/homes/xiao67/apache/htdocs/PeteTwitt/login.cgi", line 51
+[Mon Apr 28 02:22:45 2014] [error] [client 128.10.25.105]     def check_password(user, passwd):
+[Mon Apr 28 02:22:45 2014] [error] [client 128.10.25.105]       ^
+[Mon Apr 28 02:22:45 2014] [error] [client 128.10.25.105] IndentationError: expected an indented block
+[Mon Apr 28 02:22:45 2014] [error] [client 128.10.25.105] Premature end of script headers: login.cgi
+[Mon Apr 28 02:22:45 2014] [error] [client 128.10.25.105]   File "/homes/xiao67/apache/htdocs/PeteTwitt/login.cgi", line 51
+[Mon Apr 28 02:22:45 2014] [error] [client 128.10.25.105]     def check_password(user, passwd):
+[Mon Apr 28 02:22:45 2014] [error] [client 128.10.25.105]       ^
+[Mon Apr 28 02:22:45 2014] [error] [client 128.10.25.105] IndentationError: expected an indented block
+[Mon Apr 28 02:22:45 2014] [error] [client 128.10.25.105] Premature end of script headers: login.cgi
+[Mon Apr 28 02:22:45 2014] [error] [client 128.10.25.105]   File "/homes/xiao67/apache/htdocs/PeteTwitt/login.cgi", line 51
+[Mon Apr 28 02:22:45 2014] [error] [client 128.10.25.105]     def check_password(user, passwd):
+[Mon Apr 28 02:22:45 2014] [error] [client 128.10.25.105]       ^
+[Mon Apr 28 02:22:45 2014] [error] [client 128.10.25.105] IndentationError: expected an indented block
+[Mon Apr 28 02:22:45 2014] [error] [client 128.10.25.105] Premature end of script headers: login.cgi
+[Mon Apr 28 02:22:45 2014] [error] [client 128.10.25.105]   File "/homes/xiao67/apache/htdocs/PeteTwitt/login.cgi", line 51
+[Mon Apr 28 02:22:45 2014] [error] [client 128.10.25.105]     def check_password(user, passwd):
+[Mon Apr 28 02:22:45 2014] [error] [client 128.10.25.105]       ^
+[Mon Apr 28 02:22:45 2014] [error] [client 128.10.25.105] IndentationError: expected an indented block
+[Mon Apr 28 02:22:45 2014] [error] [client 128.10.25.105] Premature end of script headers: login.cgi
+[Mon Apr 28 02:22:48 2014] [error] [client 128.10.25.105]   File "/homes/xiao67/apache/htdocs/PeteTwitt/login.cgi", line 51
+[Mon Apr 28 02:22:48 2014] [error] [client 128.10.25.105]     def check_password(user, passwd):
+[Mon Apr 28 02:22:48 2014] [error] [client 128.10.25.105]       ^
+[Mon Apr 28 02:22:48 2014] [error] [client 128.10.25.105] IndentationError: expected an indented block
+[Mon Apr 28 02:22:48 2014] [error] [client 128.10.25.105] Premature end of script headers: login.cgi
+[Mon Apr 28 02:22:48 2014] [error] [client 128.10.25.105]   File "/homes/xiao67/apache/htdocs/PeteTwitt/login.cgi", line 51
+[Mon Apr 28 02:22:48 2014] [error] [client 128.10.25.105]     def check_password(user, passwd):
+[Mon Apr 28 02:22:48 2014] [error] [client 128.10.25.105]       ^
+[Mon Apr 28 02:22:48 2014] [error] [client 128.10.25.105] IndentationError: expected an indented block
+[Mon Apr 28 02:22:48 2014] [error] [client 128.10.25.105] Premature end of script headers: login.cgi
+[Mon Apr 28 02:23:13 2014] [error] [client 128.10.25.105]   File "/homes/xiao67/apache/htdocs/PeteTwitt/cgi/login.cgi", line 51
+[Mon Apr 28 02:23:13 2014] [error] [client 128.10.25.105]     def check_password(user, passwd):
+[Mon Apr 28 02:23:13 2014] [error] [client 128.10.25.105]       ^
+[Mon Apr 28 02:23:13 2014] [error] [client 128.10.25.105] IndentationError: expected an indented block
+[Mon Apr 28 02:23:13 2014] [error] [client 128.10.25.105] Premature end of script headers: login.cgi
+[Mon Apr 28 02:23:18 2014] [error] [client 128.10.25.105]   File "/homes/xiao67/apache/htdocs/PeteTwitt/login.cgi", line 51
+[Mon Apr 28 02:23:18 2014] [error] [client 128.10.25.105]     def check_password(user, passwd):
+[Mon Apr 28 02:23:18 2014] [error] [client 128.10.25.105]       ^
+[Mon Apr 28 02:23:18 2014] [error] [client 128.10.25.105] IndentationError: expected an indented block
+[Mon Apr 28 02:23:18 2014] [error] [client 128.10.25.105] Premature end of script headers: login.cgi
+[Mon Apr 28 02:23:28 2014] [error] [client 128.10.25.105]   File "/homes/xiao67/apache/htdocs/PeteTwitt/login.cgi", line 51
+[Mon Apr 28 02:23:28 2014] [error] [client 128.10.25.105]     def check_password(user, passwd):
+[Mon Apr 28 02:23:28 2014] [error] [client 128.10.25.105]       ^
+[Mon Apr 28 02:23:28 2014] [error] [client 128.10.25.105] IndentationError: expected an indented block
+[Mon Apr 28 02:23:28 2014] [error] [client 128.10.25.105] Premature end of script headers: login.cgi
+[Mon Apr 28 02:23:28 2014] [error] [client 128.10.25.105]   File "/homes/xiao67/apache/htdocs/PeteTwitt/login.cgi", line 51
+[Mon Apr 28 02:23:28 2014] [error] [client 128.10.25.105]     def check_password(user, passwd):
+[Mon Apr 28 02:23:28 2014] [error] [client 128.10.25.105]       ^
+[Mon Apr 28 02:23:28 2014] [error] [client 128.10.25.105] IndentationError: expected an indented block
+[Mon Apr 28 02:23:28 2014] [error] [client 128.10.25.105] Premature end of script headers: login.cgi
+[Mon Apr 28 02:23:28 2014] [error] [client 128.10.25.105]   File "/homes/xiao67/apache/htdocs/PeteTwitt/login.cgi", line 51
+[Mon Apr 28 02:23:28 2014] [error] [client 128.10.25.105]     def check_password(user, passwd):
+[Mon Apr 28 02:23:28 2014] [error] [client 128.10.25.105]       ^
+[Mon Apr 28 02:23:28 2014] [error] [client 128.10.25.105] IndentationError: expected an indented block
+[Mon Apr 28 02:23:28 2014] [error] [client 128.10.25.105] Premature end of script headers: login.cgi
+[Mon Apr 28 02:23:39 2014] [error] [client 128.10.25.105]   File "/homes/xiao67/apache/htdocs/PeteTwitt/login.cgi", line 51
+[Mon Apr 28 02:23:39 2014] [error] [client 128.10.25.105]     def check_password(user, passwd):
+[Mon Apr 28 02:23:39 2014] [error] [client 128.10.25.105]       ^
+[Mon Apr 28 02:23:39 2014] [error] [client 128.10.25.105] IndentationError: expected an indented block
+[Mon Apr 28 02:23:39 2014] [error] [client 128.10.25.105] Premature end of script headers: login.cgi
+[Mon Apr 28 02:23:40 2014] [error] [client 128.10.25.105]   File "/homes/xiao67/apache/htdocs/PeteTwitt/login.cgi", line 51
+[Mon Apr 28 02:23:40 2014] [error] [client 128.10.25.105]     def check_password(user, passwd):
+[Mon Apr 28 02:23:40 2014] [error] [client 128.10.25.105]       ^
+[Mon Apr 28 02:23:40 2014] [error] [client 128.10.25.105] IndentationError: expected an indented block
+[Mon Apr 28 02:23:40 2014] [error] [client 128.10.25.105] Premature end of script headers: login.cgi
+[Mon Apr 28 02:24:05 2014] [error] [client 128.10.25.105]   File "/homes/xiao67/apache/htdocs/PeteTwitt/login.cgi", line 51
+[Mon Apr 28 02:24:05 2014] [error] [client 128.10.25.105]     def check_password(user, passwd):
+[Mon Apr 28 02:24:05 2014] [error] [client 128.10.25.105]       ^
+[Mon Apr 28 02:24:05 2014] [error] [client 128.10.25.105] IndentationError: expected an indented block
+[Mon Apr 28 02:24:05 2014] [error] [client 128.10.25.105] Premature end of script headers: login.cgi
